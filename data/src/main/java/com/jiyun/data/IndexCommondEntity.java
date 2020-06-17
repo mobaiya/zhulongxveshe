@@ -1,4 +1,4 @@
-package com.teach.data;
+package com.jiyun.data;
 
 import com.google.gson.annotations.SerializedName;
 

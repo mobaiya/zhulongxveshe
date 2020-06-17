@@ -1,4 +1,4 @@
-package com.teach.data;
+package com.jiyun.data;
 
 import android.os.Parcel;
 import android.os.Parcelable;

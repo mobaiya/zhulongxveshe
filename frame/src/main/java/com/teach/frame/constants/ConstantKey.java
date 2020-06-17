@@ -28,6 +28,7 @@ public class ConstantKey {
     public static final String SPLASH_TO_LOGIN = "splash_to_login";
     public static final String SUBJECT_TO_LOGIN = "subject_to_login";
     public static final String COOKIES = "cookies_cache";
+    public static final String GROU_TO_DETAIL_GID = "grou_to_detail_gid";
     public static final String COURSE_DESCRIBE = "course_describe";
     public static final String COURSE_WEB = "course_web";
     public static final String COURSE_LIST = "course_list";

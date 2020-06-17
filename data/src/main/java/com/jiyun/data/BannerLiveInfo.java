@@ -1,11 +1,8 @@
-package com.teach.data;
+package com.jiyun.data;
 
 import java.io.Serializable;
 import java.util.List;
 
-/**
- * Created  on 2020/6/8.
- */
 public class BannerLiveInfo implements Serializable {
     private static final long serialVersionUID = -5079196530172264541L;
     public List<Carousel> Carousel;

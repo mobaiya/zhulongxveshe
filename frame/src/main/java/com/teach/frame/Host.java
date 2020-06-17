@@ -7,6 +7,7 @@ import android.content.Context;
  */
 public class Host {
 
+    public static  String WX_OAUTH;
     private static Context mContext = FrameApplication.getFrameApplicationContext();
 
     public static final int API_TYPE = 3;//1,内测  2，外测  3，外正
@@ -42,6 +43,7 @@ public class Host {
     public static String PHOTO_URL;
     public static String PHOTO_OPENAPI;
     public static String BBS_API;
+    public static String VIP_BANNER_LIVE;
 
     /**
      * 静态代码块，优先于对象的创建而执行，且只执行一次
@@ -56,6 +58,7 @@ public class Host {
             PHOTO_OPENAPI=AD_OPENAPI;
         }
         if (API_TYPE == 3){
+            WX_OAUTH="https://api.weixin.qq.com/sns/oauth2/";
             BBS_API=mContext.getString(R.string.bbs_api);
             AD_OPENAPI = mContext.getString(R.string.ad_openapi);
             PHOTO_OPENAPI = mContext.getString(R.string.photo_openapi);
@@ -87,6 +90,7 @@ public class Host {
             EDU_URL=mContext.getString(R.string.edu_url);
             EDU_API=mContext.getString(R.string.edu_api);
             EDU_OPENAPI=mContext.getString(R.string.edu_openapi);
+            VIP_BANNER_LIVE = "https://edu.zhulong.com/openapi/lesson/";
         }
     }
 }
